@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="336dp"
-        android:layout_height="53dp"
+        android:layout_width="340dp"
+        android:layout_height="151dp"
         android:text="@string/Msg1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/tvMsg2"
-        android:layout_width="327dp"
-        android:layout_height="71dp"
+        android:layout_width="360dp"
+        android:layout_height="117dp"
         android:text="TextView"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

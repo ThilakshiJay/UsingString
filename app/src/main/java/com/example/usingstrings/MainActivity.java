@@ -16,42 +16,42 @@ public class MainActivity extends AppCompatActivity {
         TextView txtVMsg2 = findViewById(R.id.tvMsg2);
         txtVMsg2.setText(R.string.Msg2);
 
-        Log.i("Lifecycle", "OnCreate() invoked");
+        Log.i("Lifecycle", "OnCreate created");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
 
-        Log.i("Lifecycle", "onStart() invoked");
+        Log.i("Lifecycle", "onStart created");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
 
-        Log.i("Lifecycle", "onRestart() invoked");
+        Log.i("Lifecycle", "onRestart created");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
 
-        Log.i("Lifecycle", "onResume() invoked");
+        Log.i("Lifecycle", "onResume created");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
 
-        Log.i("Lifecycle", "onPause() invoked");
+        Log.i("Lifecycle", "onPause created");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
 
-        Log.i("Lifecycle", "onStop() invoked");
+        Log.i("Lifecycle", "onStop created");
     }
 
 
@@ -59,6 +59,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
 
-        Log.i("Lifecycle", "onDestroy() invoked");
+        Log.i("Lifecycle", "onDestroy created");
     }
 }
